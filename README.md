@@ -1,4 +1,4 @@
-# Isp-scale-automation
+
 # ISP Scale Automation
 
 Automação desenvolvida em Python para auxiliar na distribuição de técnicos em operações de provedores de internet (ISP), validando cobertura mínima por cidade e identificando déficits operacionais.
