@@ -2,7 +2,7 @@
 
 ## Demonstração
 
-<img src="assets/demo.png" width="700">
+<img src=/workspaces/Isp-scale-automation/assets/demo.png" width="700">
 
 Automação desenvolvida em Python para auxiliar na distribuição de técnicos em operações de provedores de internet (ISP).
 
