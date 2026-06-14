@@ -1,6 +1,11 @@
-from src.leitor import carregar_tecnicos
+from src.leitor import (
+    carregar_tecnicos,
+    carregar_cidades
+)
+
 from src.escalador import gerar_escala
 from src.exportador import salvar_escala
+from src.relatorio import gerar_relatorio
 
 
 def main():
@@ -9,15 +14,20 @@ def main():
         "dados/tecnicos.csv"
     )
 
-    escala = gerar_escala(
-        tecnicos
+    cidades = carregar_cidades(
+        "dados/cidades.csv"
     )
 
-    salvar_escala(
-        escala
+    escala, alertas = gerar_escala(
+        tecnicos,
+        cidades
     )
 
-    print("Escala gerada com sucesso!")
+    salvar_escala(escala)
+
+    gerar_relatorio(alertas)
+
+    print("\nEscala gerada com sucesso!")
 
 
 if __name__ == "__main__":

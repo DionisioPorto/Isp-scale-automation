@@ -1,6 +1,6 @@
-nome,cidade,disponivel
+nome,cidade_base,disponivel
 Joao,Curitiba,Sim
 Maria,Londrina,Sim
-Pedro,Maringa,Nao
-Lucas,Ponta Grossa,Sim
+Pedro,Maringa,Sim
+Lucas,Curitiba,Sim
 Ana,Cascavel,Sim
